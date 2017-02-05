@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.kenevans.apache.sanselan"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.kenevans.imagemodel"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.kenevans.jfreechart"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/net.kenevans.jfreechart.utils"/>
+	<classpathentry kind="lib" path="clibwrapper_jiio.jar"/>
+	<classpathentry kind="lib" path="jai_codec.jar"/>
+	<classpathentry kind="lib" path="jai_core.jar"/>
+	<classpathentry kind="lib" path="jai_imageio.jar"/>
+	<classpathentry kind="lib" path="mlibwrapper_jai.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
