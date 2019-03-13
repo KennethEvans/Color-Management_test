@@ -163,7 +163,7 @@ public class TestICCProfiles extends JFrame
         // File Save as
         menuFileSaveAs.setText("Save As...");
         menuFileSaveAs.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,
-            InputEvent.CTRL_MASK));
+            InputEvent.CTRL_DOWN_MASK));
         menuFileSaveAs.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 saveAs();
@@ -299,7 +299,7 @@ public class TestICCProfiles extends JFrame
         types.put("9", "TYPE_USHORT_555_RGB");
         types.put("8", "TYPE_USHORT_565_RGB");
         types.put("11", "TYPE_USHORT_GRAY");
-        Integer type = new Integer(image.getType());
+        Integer type = Integer.valueOf(image.getType());
         String stringType = types.get(type.toString());
         if(stringType == null) stringType = "Unknown";
         info += "Type: " + stringType + " [" + type + "]" + LS;
